@@ -12,17 +12,12 @@ console.log(userChoice, userNumber);
 let pcNumber = getRndInteger(1,10);
 console.log(pcNumber);
 
-/* let numbersSum = (userNumber + pcNumber);
-console.log(numbersSum); */
+let numbersSum = (userNumber + pcNumber);
+console.log(numbersSum);
 
-function sum (userNumber, pcNumber){
-    return (userNumber + pcNumber);
-}
-
-console.log(sum);
 
 function result(odd, even){
-    if(numbersSum % 2 ===0){
+    if(sum % 2 ===0){
       return(even);
    } else{
         return(odd);
