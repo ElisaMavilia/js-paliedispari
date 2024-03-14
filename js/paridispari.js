@@ -23,7 +23,7 @@ function result(odd, even){
     }
 }
 
-if(userChoice === result){
+if(result === userChoice){
     console.log("Hai vinto")
     } else{
         console.log("Hai perso");
