@@ -15,15 +15,17 @@ function checkPalindrome (palindrome){
 
  let reverseWord = reverseArray.join(''); //Riunisce le singole lettere in una stringa;
 
- if(palindrome === reverseWord) {
+ return reverseWord;
+ 
+}
+
+let reverseWord = checkPalindrome (userWord);
+
+if(userWord === reverseWord) { 
     console.log('La parola è palindroma');
  } else{
     console.log('La parola non è palindroma');
  }
- 
-}
-
-
 
 
 
